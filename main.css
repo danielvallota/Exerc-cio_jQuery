@@ -1,0 +1,134 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+body {
+    background-image: url('./imagens/gettyimages-1161898151.jpg');
+    background-size: cover;
+    text-align: center;
+}
+
+.container {
+    max-width: 960px;
+    width: 100%;
+    margin: 0 auto;
+}
+h1 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+    font-family: 'Delius', cursive;
+    background-color: rgba(202, 207, 248, 0.2);
+    border-radius: 25px;
+}
+
+input {
+    width: 240px;
+    font-size: medium;
+    margin-right: 8px;
+    border-radius: 5px;
+    border: none;
+}
+
+#submit {
+    width: 90px;
+    font-size: medium;
+    cursor: pointer;
+    background-color: blue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: rgb(127, 136, 255);
+}
+
+form {
+    margin-bottom: 20px;
+}
+ul li {
+    width: 50%;
+    display: inline;/*com inline deixei o li centralizado no ul com 100% */
+    list-style: none;
+    text-align: end;
+    margin-right: 308px;
+    margin-bottom: 5px;
+}
+
+ul#task-list {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-end;
+}
+
+span.task-name {
+    font-size: large;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    color: black;
+    padding: 10px;
+    padding-right: 400px;
+    
+}
+
+.completed {
+    text-decoration: line-through;
+    font-style: oblique;
+    
+}
+
+.complete-btn {
+    background-color: blue;
+    margin-right: 10px;
+    margin-left: 30px;
+    border-radius: 10px;
+    width: 70px;
+    height: 22px;
+    border: none;
+    color: white;
+    
+}
+
+
+.complete-btn:hover {
+    background-color: green;
+    
+}
+
+.delete-btn:hover {
+    background-color: red;
+}
+
+.delete-btn {
+    border-radius: 10px;
+    width: 60px;
+    height: 22px;
+    background-color: blue;
+    border: none;
+    color: white;
+}
+ul#task-list {
+    width: 100%;
+    display: flex;
+}
+/*<style>
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 400,
+    'GRAD' 0,
+    'opsz' 24
+}
+
+<span class="material-symbols-outlined">
+check
+</span>
+</style>*/
